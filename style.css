@@ -28,7 +28,6 @@ body {
 	margin-left: 4px;
     text-decoration: none;
     font-family: 'Carter One', cursive;
-	font-size: 32px;
     color: orange;
 }
 
@@ -86,7 +85,10 @@ body {
     }
     .fadeintweak img { 
         left: 10%;
-        top: 20%;
+        top: 120px;
+    }
+    .hTitleTweak {
+        font-size: 31px;
     }
 }
 @media only screen and (min-width: 1000px) {
@@ -106,8 +108,11 @@ body {
         margin-right: 30px;
     }
     .fadeintweak img { 
-        left: 8%;
-        top: 21%;
+        left: 7.5%;
+        top: 120px;
+    }
+    .hTitleTweak {
+        font-size: 32px;
     }
 }
 
@@ -123,15 +128,15 @@ body {
 .span-6 { grid-column: span 6; }
 
 .tipbox {
-    margin-top: 12px;
+    margin-top: 8px;
     position: absolute;
     border: 2px solid #000;
     width: 400px;
-    margin-left: 10%;
+    margin-left: 9.6%;
     margin-right: 10%;
     border-radius: 25px;
     -moz-border-radius: 15px;
-    background-color: #black;
+    background-color: orange;
 }
 .tiptip {
    font-family: 'Roboto Slab', serif;
@@ -142,6 +147,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     padding-left: 10px;
     font-size: 14px;   
+    color: white;
 }
 
 
