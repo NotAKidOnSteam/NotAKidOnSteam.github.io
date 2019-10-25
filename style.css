@@ -18,9 +18,9 @@
 }
 
 .hTitle {
-	position: absolute;
-	vertical-align: top;
-	margin-top: 5px;
+    position: absolute;
+    vertical-align: top;
+    margin-top: 5px;
     text-decoration: none;
     font-family: 'Carter One', cursive;
     color: orange;
@@ -91,7 +91,7 @@
     }
     .hTitleTweak {
         font-size: 31px;
-        margin-left: 3px;
+        margin-left: 1px;
     }
 }
 @media only screen and (min-width: 1000px) {
