@@ -1,6 +1,17 @@
 body {
-  margin: 0;
-  background-color: var(--bg-color);
+    margin: 0;
+    background-color: var(--bg-color);
+
+    background-size: 800px;
+    color: #797880;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 .textcolor {
