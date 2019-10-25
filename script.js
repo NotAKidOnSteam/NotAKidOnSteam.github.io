@@ -42,6 +42,6 @@ toggleSwitch.addEventListener('change', switchTheme, false);
 
 var overscroll = new Overscroll();
 window.onload = function() {
-	overscroll.bindElement(document.querySelector('.easter-egg-element.top'), 'top');
+	overscroll.bindElement(document.querySelector('.easter-egg-element'), 'top', 2);
 	overscroll.bindElement(document.querySelector('.easter-egg-element.bottom'), 'bottom');
 }
