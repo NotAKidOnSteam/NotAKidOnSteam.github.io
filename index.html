@@ -7,6 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>NAKoS - Home</title>
 	<link href="style.css" rel="stylesheet">
+	<link href="shared.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Carter+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
@@ -47,6 +48,14 @@
               <span> | </span>
 
               <a class="aFix" title="Discord Friend Request" href="https://discordapp.com/users/267536162770518024">NotAKidoS#0001</a>
+            </div>
+            
+<!--            dark mode button-->
+            <div class="theme-switch-wrapper">
+                <label class="theme-switch" for="checkbox">
+                    <input type="checkbox" id="checkbox" />
+                    <div class="slider round"></div>
+                </label>
             </div>
         </header>
 
@@ -129,7 +138,7 @@
 
             </div>
     <!--        this text disapears when screen is small-->
-            <div class="span-2 hidesmall lowertext">
+            <div class="span-2 hidesmall lowertext textcolor">
 
                 <h2>Hi There!</h2>
 
@@ -139,13 +148,11 @@
 
             </div>
         </div>
-        <!--    calls script for slideshow-->
-        <script src="script.js"></script>
-    <!--                        THIS CODE IS USED WHEN ON MOBILE SCREEN-->
+    <!--          THIS CODE IS USED WHEN ON MOBILE SCREEN-->
 
     <!--    Idk how to get the text out of the grid container  -->
         <!--        this text disapears when screen is small-->
-        <div class="hidebig lowertext">
+        <div class="hidebig lowertext textcolor">
             <h2>Hi There!</h2>
 
                 <p>My name is NotAKid, and welcome to my stupid website. I spend my time talking to people in Discord and VRChat while also making addons for Garry's Mod. I won't be surprised if my garbage code crashes your game... I've pretty much taught myself most of what I know with tons and tons of trial and error.</p>
@@ -153,6 +160,17 @@
         </div>
         
         
+        <div class="textcolor">
+            <h2>What Do You Do?</h2>
+
+                <p>I make Garry's Mod addons and publish them to the Steam workshop! Nowadays I'm spending more time making models for VRChat and hanging out with friends. I've taken almost all available coding classes I can and only really learned how to properly use functions... hmmm. </p>
+            
+        </div>
+        
+        
+<!--        runs scripts for darkmode toggle and slideshow-->
+        <script src="script.js"></script>
+
     </body>
 </html> 
 
