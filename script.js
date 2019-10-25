@@ -1,3 +1,4 @@
+//slideshow
 var i = 0;
 var root = document.querySelector('.fadein');
 var els = root.querySelectorAll(':not(:first-child)');
@@ -12,7 +13,7 @@ root.querySelector(':first-child').classList.add('is-hidden');
 root.querySelector(':nth-child(2)').classList.remove('is-hidden');
 }, 6000)
 
-
+//dark mode
 
 const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
 const currentTheme = localStorage.getItem('theme');
@@ -36,3 +37,11 @@ function switchTheme(e) {
 }
 
 toggleSwitch.addEventListener('change', switchTheme, false);
+
+//secret code
+
+var overscroll = new Overscroll();
+window.onload = function() {
+	overscroll.bindElement(document.querySelector('.easter-egg-element.top'), 'top');
+	overscroll.bindElement(document.querySelector('.easter-egg-element.bottom'), 'bottom');
+}
