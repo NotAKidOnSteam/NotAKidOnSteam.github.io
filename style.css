@@ -24,6 +24,8 @@
     text-decoration: none;
     font-family: 'Carter One', cursive;
     color: orange;
+    font-size: 32px;
+    margin-left: 4px;
 }
 
 .hSubtitle {
@@ -89,10 +91,6 @@
         left: 10%;
         top: 120px;
     }
-    .hTitleTweak {
-        font-size: 31px;
-        margin-left: 3px;
-    }
 }
 @media only screen and (min-width: 1000px) {
     .resplide {
@@ -114,10 +112,6 @@
     .fadeintweak img { 
         left: 7.5%;
         top: 120px;
-    }
-    .hTitleTweak {
-        font-size: 32px;
-        margin-left: 4px;
     }
 }
 
